@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+background: #f3f3f3;
+color: #272727;
+
+}
+
+#nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:80px;
+	padding-top: 30px ;
+	background: #ffffff;
+	box-sizing: border-box;
+	display: block;
+    transition: top 0.8s;
+}
+
+
+
+#nav .logo{
+	float: left;
+	padding-left: 105px;
+	font-size: 18px;
+	color: #6f6f6f;
+	display: block;
+	text-decoration: none;
+}
+
+
+
+#nav .logo a{
+		text-decoration: none;
+		color: #6f6f6f;
+}
+    
+    #nav .logo a:hover{ 
+	color: black;
+
+
+}
+
+
+#nav ul{
+	list-style: none;
+	float: right;
+    padding-right: 105px;
+    margin:0;
+	display: flex;
+}
+
+#nav ul li{
+	list-style: none;
+}
+
+#nav ul li a{
+	list-style: none;
+	float: right;
+	padding-right: 40px;
+	color: #6f6f6f;
+	text-decoration: none;
+
+}
+
+
+
+
+#nav ul li a:hover{ 
+	color: black;
+
+
+}
+
+.me{
+
+	padding-top: 10%;
+	padding-bottom: 4%;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.row{
+padding-left: 150px;	
+}
+
+
+.column {
+  float: left;
+  width: 38%;
+  padding: 40px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Project{
+	height: 400px;	
+	-webkit-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-moz-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-o-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+	transition: transform 0.5s ease, opacity 0.5s ease-out;
+}
+
+.Project:hover{
+	transform: scale(1.03);
+}
+
+.about{
+
+	padding-top: 10%;
+	padding-bottom: 4%;
+	text-align: center;
+	font-size: 24px;
+}
+
+
+.profile{
+   
+
+    padding: 40px;
+    padding-left: 195px;
+	height: 300px;	
+	float: left;
+  }  
+
+
+.aboutMe{
+	 padding-right: 180px;
+	 padding-top: 20px;
+	 font-size: 19px;
+	font-weight: 500;
+}
+
+
+footer{
+padding:1%;}
+
+
+
+footer{
+	margin-top: 8%;
+	width: 100%;
+	height:80px;
+	padding-top: 15px ;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+
+
+footer ul{
+	list-style: none;
+	display: flex;
+	padding-left: 560px;
+}
+
+
+footer ul li a{
+	padding:16px;
+	list-style: none;
+	color: #6f6f6f;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+footer ul li a:hover{
+	color: black;
+}
+
+
+
+
